@@ -793,7 +793,7 @@ a.main-nav-selected {
 .page-contacts .contacts {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 70px;
 }
 
