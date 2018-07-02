@@ -800,9 +800,14 @@ a.main-nav-selected {
 .page-contacts .contacts-item {
     width: 370px;
     height: 370px;
+    margin: 0 30px 122px 0;
     padding: 50px 0 60px;
     border: 1px solid #a6a6a6;
     text-align: center;
+}
+
+.page-contacts .contacts-item:last-child {
+    margin-right: 0;
 }
 
 .page-contacts .map-marker {
@@ -817,6 +822,29 @@ a.main-nav-selected {
     text-transform: uppercase;
 }
 
-.page-contacts .contacts-phone {
-    margin-top: 10px;
+.page-contacts .contacts-phone,
+.page-contacts .contacts-email,
+.page-contacts .contacts-location {
+    margin-top: 12px;
+}
+
+.page-contacts .contacts-item .contacts-caption {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #6c6c6c;
+}
+
+.page-contacts .contacts-item .contacts-info {   
+    margin: 0; 
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #000;
+}
+
+.page-contacts .contacts-location-address {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
 }
