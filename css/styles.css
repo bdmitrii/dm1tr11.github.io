@@ -694,6 +694,10 @@ a.main-nav-selected {
     .products-list {
         justify-content: space-around;
     }
+
+    .trending-grid {
+        justify-content: space-around;
+    }
 }
 
 /* PRODUCTS */
