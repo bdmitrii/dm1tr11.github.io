@@ -8,30 +8,86 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/brands.css" integrity="sha384-7xAnn7Zm3QC1jFjVc1A6v/toepoG3JXboQYzbM0jrPzou9OFXm/fY6Z/XiIebl/k" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/fontawesome.css" integrity="sha384-ozJwkrqb90Oa3ZNb+yKFW2lToAWYdTiF1vt8JiH5ptTGHTGcN7qdoR1F95e0kYyG" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body class="page-product">
     <div class="main-container">
-        <header class="header">
+        <header class="header product-header">
             <div class="container">
                 <div class="header-nav">
-                    <a href="./index.html" class="logo">
-                        <img src="./img/logo.png" alt="Interior">
+                    <a href="../index.html" class="logo">
+                        <img src="../img/logo.png" alt="Interior">
                     </a>
                     <nav class="main-nav">
                         <ul>
-                            <li><a href="./index.html">Home</a></li>
-                            <li><a href="./products.html">Products</a></li>
+                            <li><a href="../index.html">Home</a></li>
+                            <li><a href="../products.html">Products</a></li>
                             <li><a href="#">History</a></li>
                             <li><a href="#">Showroom</a></li>
-                            <li><a class="main-nav-selected" href="#">Contact</a></li>
+                            <li><a href="../contacts.html">Contact</a></li>
                             <li><a class="search" href="#"></a></li>
                         </ul>
                     </nav>
                 </div>
             </div>
         </header>
-    
+        <nav class="product-nav">
+            <ul class="product-nav-list">
+                <li class="product-nav-list-item"><a class="product-nav-list-link link-selected" href="#">All</a></li>
+                <li class="product-nav-list-item"><a class="product-nav-list-link" href="#">Home</a></li>
+                <li class="product-nav-list-item"><a class="product-nav-list-link" href="#">Office</a></li>
+                <li class="product-nav-list-item"><a class="product-nav-list-link" href="#">Furniture</a></li>
+                <li class="product-nav-list-item"><a class="product-nav-list-link" href="#">Modern</a></li>
+                <li class="product-nav-list-item"><a class="product-nav-list-link" href="#">Classic</a></li>
+            </ul>
+        </nav>
+        <div class="product-item container">
+            <div class="product-images">
+                <div class="product-image-large">
+                    <img src="../img/products/slider1.jpg" alt="product-name">
+                </div>
+                <nav class="product-image-slider">
+                    <ul class="product-image-slider-items">
+                        <li><a class="product-image-slider-item" href=""><img src="../img/products/controll.jpg" alt="product-name"></a></li>
+                        <li><a class="product-image-slider-item" href=""><img src="../img/products/controll11.jpg" alt="product-name"></a></li>
+                        <li><a class="product-image-slider-item" href=""><img src="../img/products/controll2.jpg" alt="product-name"></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="product-info">
+                <h2 class="product-name">Fishnet Chair</h2>
+                <p class="product-status">Hot Deal</p>
+                <p class="product-price">
+                    <span class="product-price-dollar">$</span>
+                    <span class="product-price-amount">36.7</span>
+                    <span class="product-price-sq">/sq</span>
+                </p>
+                <a class="button button-order product-info-order-button" href="#">Order us</a>
+                <div class="product-descr">
+                    <p class="product-descr-p">The majesty of Mountains - Ugmonk style. </p>
+                    <p class="product-descr-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore </p>
+                    <p class="product-descr-p">et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    <p class="product-descr-p">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+                </div>
+            </div>
+        </div>
+        <section class="trending related-products container">
+            <div class="trending-header">
+                <h2 class="trending-caption">Related Products</h2>
+                <a href="#" class="button button-explore trending-explore-button">Explore All</a>
+            </div>
+            <div class="trending-grid">
+                <a href="#" class="trending-item">
+                    <img src="../img/product-11.jpg" alt="trending-item-1">
+                </a>
+                <a href="#" class="trending-item">
+                    <img src="../img/product-21.jpg" alt="trending-item-2">
+                </a>
+                <a href="#" class="trending-item">
+                    <img src="../img/product-31.jpg" alt="trending-item-3">
+                </a>
+            </div>
+        </section>
         <footer class="footer">
             <div class="container">
                 <div class="footer-top">

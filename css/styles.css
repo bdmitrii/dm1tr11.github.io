@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "Gotham";
+    src: url("../fonts/Gotham Light.otf") format("opentype");
+    font-weight: 300;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -11,6 +17,10 @@ body {
 
 ul {
     list-style-type: none;
+}
+
+a {
+    text-decoration: none;
 }
 
 .main-container {
@@ -851,4 +861,135 @@ a.main-nav-selected {
     font-size: 14px;
     line-height: 20px;
     font-weight: 300;
+}
+
+/* PRODUCT */
+
+.product-header {
+    background: #fff;
+}
+
+.page-product .product-nav {
+    display: flex; 
+    margin-top: 5px;
+    justify-content: center;
+    background: #f4f4f4;
+}
+
+.page-product .product-nav-list {
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+    width: 750px;
+    overflow: hidden;
+}
+
+.page-product .product-nav-list-item {
+    display: inline-flex;
+}
+
+.page-product .product-nav-list-link {
+    padding: 24px 20px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #6c6c6c;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.page-product .link-selected {
+    color: #212121;
+}
+
+.page-product .product-item {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 72px;
+}
+
+.page-product .product-images {
+    width: 50%;
+    min-width: 500px;
+}
+
+.page-product .product-image-slider {
+    display: flex;
+    margin-top: 11px;
+    justify-content: center;
+}
+
+.page-product .product-image-slider-items {
+    display: flex;
+    width: 230px;
+}
+
+.page-product .product-image-slider-item {
+    margin-right: 10px;
+}
+
+.page-product .product-info {
+    width: 50%;
+    min-width: 500px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.page-product .product-name {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: none;
+}
+
+.page-product .product-status {
+    font-size: 18px;
+    line-height: 48px;
+    font-weight: 700;
+    color: #e53935;
+}
+
+.page-product .product-price {
+    font-family: "Gotham";
+}
+
+.page-product .product-price-dollar,
+.page-product .product-price-sq {
+    font-size: 36px;
+}
+
+.page-product .product-price-amount {
+    font-size: 72px;
+}
+
+.product-info-order-button {
+    margin-top: 20px;
+    width: 510px;
+    height: 70px;
+    padding: 26px 200px 26px 152px;
+    font-size: 22px;
+    color: #fff;
+    background-color: #f44336;
+    background-image: url("../img/arrow-icon-white.png");
+    background-position: 335px 55%;
+}
+
+.product-info-order-button:hover {
+    background-position: 338px 55%;
+}
+
+.page-product .product-descr {
+    margin-top: 42px;
+    padding: 0 40px 0 45px;
+}
+
+.page-product .product-descr-p {
+    margin-top: 12px;
+    font-family: "Gotham";
+    text-align: left;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.page-product .related-products {
+    margin: 230px auto 120px;
+    padding: 0;
 }
